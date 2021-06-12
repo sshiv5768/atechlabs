@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegDash
+    </title>
+    <link rel="stylesheet" href="regform.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class=navbar>
+        <a class="active" href="#">Home</a>
+        <a href="#Register">Register</a>
+        <a href="#Dashboard">Dashboard</a>
+    </div>
+    <form action="post">
+        <div class="form" id="Register">
+            <h1>Register Here</h1>
+            <hr>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password1">Enter Password</label>
+            <input type="password" name="password1" id="password1">
+            <br>
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="password2" id="password2">
+            <button class="regbtn" type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+    <hr>
+    <h1 class="my-2" id="Dashboard">User Progress Dashboard</h1>
+    <table class="table table-striped my-2">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quests</th>
+                <th scope="col">Skill Badges</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>13</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>30</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>23</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
